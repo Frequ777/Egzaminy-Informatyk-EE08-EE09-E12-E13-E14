@@ -1,0 +1,29 @@
+		Zadanie 1 
+Zapytanie 1
+	INSERT INTO filmy (tytul, rok, gatunki_id, ocena)VALUES("Suburbicon", 2017, 5, 5);
+Zapytanie 2
+	SELECT tytul, nazwa FROM filmy, gatunki WHERE filmy.gatunki_id = gatunki.id AND ocena = 6
+Zapytanie 3
+	SELECT tytul, rok FROM filmy WHERE gatunki_id=3 AND ocena=5
+Zapytanie 4 
+	CREATE TABLE aktorzy (id int NOT NULL, imie text, nazwisko text) 
+
+		Zadanie 2
+Zapytanie 1
+	SELECT id, tytul, tresc FROM ogloszenie WHERE kategoria=1
+Zapytanie 2
+	SELECT telefon FROM uzytkownik, ogloszenie WHERE ogloszenie.uzytkownik_id=uzytkownik.id AND ogloszenie.id=1
+Zapytanie 3
+	CREATE USER 'moderator'@'localost' IDENTIFIED BY 'qwerty'
+Zapytanie 4
+	GRANT DROP, SELECT ON ogloszenie to 'moderator'@'localhost'
+
+		Zadanie 3
+Zapytanie 1
+	INSERT INTO klasa(id, nazwa) VALUES(5,"3a")
+Zapytanie 2
+	SELECT nazwa, AVG(srednia_ocen) FROM uczen, klasa WHERE uczen.id_klasy=klasa.id GROUP BY nazwa
+Zapytanie 3
+	CREATE USER 'Dyrektor'@'localhost' IDENTIFIED BY 'dyr_123'
+Zapytanie 4
+	grant all PRIVILEGES on szkola.* to 'Dyrektor'@'localhost' 
