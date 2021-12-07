@@ -1,0 +1,6 @@
+kw1
+INSERT INTO klasa(id, nazwa) VALUES(5,'3a');
+kw3
+CREATE USER 'Dyrektor'@'localhost' IDENTIFIED BY 'dyr_123';
+kw4
+GRANT ALL PRIVILEGES ON *.* TO 'Dyrektor'@'localhost'

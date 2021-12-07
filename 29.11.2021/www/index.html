@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Szkoła ponadgimnazjalna</title>
+    <style> @import url("styl.css") </style>
+    </head>
+<body>
+    <script type="text/javascript" src="skrypt.js"></script>
+    <div id="banner"><h1>Projekt strony internetowej szkoły ponadgimnazjalnej</h1></div>
+    <div id="lewy"><table>
+        <tr>
+        <td>Treść zapytania</td>
+        <td style="width: 405px;">zrzuty ekranu</td>
+        </tr>
+        <tr>
+        <td>Zapisujące w tabeli klasa nowy rekord danych: id=5, nazwa=3a</td>
+        <td><img src="kwerenda1.jpg" alt="kwerenda1.jpg"></td>
+        </tr>
+        <tr>
+        <td>wyświetlające jedynie wszystkie klasy oraz średnią obliczoną ze wszystkich średnich ocen uczniów zgrupowanych w danej klasie</td>
+        <td><img src="kwerenda2.jpg" alt="kwerenda2.jpg"></td>
+        </tr>
+        <tr>
+        <td>tworzące użytkownika Dyrektor na localhost z hasłem dyr_123</td>
+        <td><img src="nowy_uzytkownik.jpg" alt="nowy_uzytkownik.jpg"></td>
+        </tr>
+        <tr>
+        <td>nadające prawa dla użytkownika Dyrektor pełne uprawnienia do wszystkich tabel w bazie szkola,</td>
+        <td><img src="uprawnienia.jpg" alt="uprawnienia.jpg"></td>
+        </tr>
+        </table></div>
+    <div id="prawy"><h2>Do pobrania</h2>
+    <ul>
+        <li><a href="../kwerendy.txt">zapyrtania SQL</a></li>
+        <li><a href="../szkola_nowa.sql">Baza danych</a></li>
+        </ul>
+        <hr>
+        <h3>Wyznaczanie najniższej średniej</h3>
+    <ul>
+        <li>Polak <input type="text" id="polak"></li>
+        <li>Nowak <input type="text" id="nowak"></li>
+        <li>Rysik <input type="text" id="rysik"></li>
+        </ul>
+        <button onclick="wyznacz()"> wyznacz</button>
+        <h3>Najniższa średnia:</h3>
+        <p id="wynik"></p>
+    </div>
+    <footer id="stoopka"><h3>Stronę wykonał: Michał Lewandowski</h3></footer>
+    <script type="text/javascript" src="skrypt.js"></script>
+    </body>
+</html>

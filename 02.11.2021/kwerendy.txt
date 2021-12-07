@@ -1,0 +1,8 @@
+kw1
+INSERT INTO uzytkownik VALUES (3, 'Jolanta', 'Jasny', 600600600, 'jolanta@poczta.pl');
+kw2
+SELECT tytul, tresc, podkategoria FROM ogloszenie, uzytkownik WHERE ogloszenie.uzytkownik_id=uzytkownik.id AND uzytkownik.id=1 AND ogloszenie.kategoria = 1;
+kw3
+CREATE USER 'jolanta'@'localhost' IDENTIFIED BY 'jol1@';
+kw4
+GRANT SELECT, UPDATE ON ogloszenie.* TO 'jolanta'@'localhost'

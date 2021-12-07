@@ -1,0 +1,41 @@
+#bann{
+    background-color: #301B5E;
+    color: white;
+    font-family: arial;
+    height: 60px;
+    padding: 20px;
+}
+#lewy{
+    background-color: #0193DA;
+    width: 60%;
+    height: 700px;
+}
+#prawy{
+    background-color: #0193DA;
+    width: 40%;
+    height: 700px;
+    text-align: center;
+}
+#stoopka{
+    background-color: #301B5E;
+    color: white;
+    text-align: center;
+}
+img{
+    padding: 20px;
+    border: 1px;
+    border-style: dotted;
+    border-color: orange;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.przyc{
+    background-color: orange;
+    color: white;
+    border: 0px;
+    padding: 20px;
+}

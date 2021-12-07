@@ -1,0 +1,6 @@
+kw1
+SELECT id, dataWyjazdu, cel, cena FROM wycieczki WHERE wycieczki.dostepna=TRUE
+kw2
+SELECT nazwaPliku, podpis FROM zdjecia ORDER BY podpis ASC
+kw3
+SELECT nazwaPliku, cel FROM zdjecia JOIN wycieczki WHERE wycieczki.cena>1000

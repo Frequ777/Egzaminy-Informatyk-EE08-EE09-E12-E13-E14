@@ -1,0 +1,10 @@
+body{
+    font-family: Garamond;
+}
+.ban{
+    background-color: #3CB371;
+    color: white;
+    margin: 10px;
+    font-size: 130%;
+    text-align: center;
+}

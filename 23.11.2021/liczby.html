@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ciągi Liczbowe</title>
+    <style> @import url("styl2.css") </style>
+    <script src="skrypt.js"></script>
+    </head>
+<body>
+    <div id="blokB1"><h2>Poznaj Ciągi Liczbowe</h2></div>
+    <div id="blokB2"><a href="liczby.html"><h5>Ciągi Arytmetyczne</h5></a></div>
+    <div id="blokB2"><a href="fib.html"><h5>Ciąg Fibonacciego</h5></a></div>
+    <div id="blokB2"><img src="obraz1.png" alt="Fibonacci"></div>
+    
+    <div id="lewy" style="clear: both;">
+        <ol>
+            <li>Ciągi Arytmetyczne</li>
+            <li>Ciągi Geometryczne</li>
+            <li>Ciąg Fibonacciego</li>
+        </ol>
+    </div>
+    <div id="prawy"><h2>Generowanie Ciągu Arytmetycznego</h2>
+    Pierwszy wyraz A1: <input id="a1" type="number"><br>
+    Różnica ciągu R: <input id="r"  type="number"><br>
+    Liczba wyrazów w ciągu N: <input id="n"  type="number"><br>
+        <input type="submit" value="Generuj Ciąg" onclick="ciag()"><br><br>
+        <div id="wynik"></div>
+    </div>
+    
+    <div id="stoopka" style="clear: both;"><p>Autor: Michał Lewandowski</p></div>
+    <script>
+        function ciag() {
+            var a1 = document.getElementById('a1').value;
+            a1 = parseInt(a1);
+            var r = document.getElementById('r').value;
+            r = parseInt(r);
+            var n = document.getElementById('n').value;
+            n = parseInt(n);
+            var wynik = "Ciąg artmetyczny zawiera wyrazy: ";
+            wynik += a1;
+            for(i = 1; i < n; i++) {
+                a1 = a1 + r;
+                wynik += ", " + a1;
+            }
+            document.getElementById('wynik').innerHTML = wynik;
+        }
+    </script>
+    </body>
+</html>
