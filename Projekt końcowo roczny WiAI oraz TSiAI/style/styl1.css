@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body
+{background-color: beige;
+margin: 10px}
+
+h1.z2
+{color: brown;
+font-size: 48;
+letter-spacing: 3px;
+font-family: "Vivaaldi";
+font-weight: bold;
+text-align: center;}
+
+a
+{color: green;}
+
+ul.menu
+{
+ list-style-type: none;
+ margin: 0;
+padding: 0;
+}
+
+li.menu{
+    list-style-type: none;
+    float: left;
+}
+a.menu {
+    font-size: 17px;
+    font-style: italic;
+    opacity: 0.7;
+  display: block;
+  height: 50px;
+    width: 200px;
+  background-color: #ffdbf2;
+}
+
+li
+{list-style-type: circle}
+footer
+{background-color: brown;
+color: white;
+font-size: 12px;}
+
+img{
+    max-width: 10%
+}
+
+table,tr, td {
+    color: darkblue;
+    font-size: 13px;
+    font-style: italic;
+    font-family: "Verdana";
+    column-span: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+td.z4{height: 200px}

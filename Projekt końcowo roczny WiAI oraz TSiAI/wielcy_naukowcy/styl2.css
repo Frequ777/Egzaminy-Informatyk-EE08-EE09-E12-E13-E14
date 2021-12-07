@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1
+{color: brown;
+font-size: 32;
+opacity: 0.6;
+font-family: "Verdana";
+font-weight: bold;
+font-style: italic;
+text-align: center;}
+
+h3
+{font-family: "Times New Roman";
+font-style: italic;
+font-size: 32;
+color: brown;
+text-align: left;
+border: 2px;
+border-color: black;
+border-style: double;}
+p{
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+img.wyn {  
+    float: right;
+max-width: 50%;  
+max-height: 50%; 
+    border: 3px;
+border-color: #c2fdff;
+border-style: solid;
+margin: 4px;
+}  
+svg.bulb{
+    max-width: 6%;
+    opacity: 50%;
+    transition-duration: 0.4s;
+}
+svg:hover{
+    opacity: 100%;
+}
+
+li.menu{
+    color: darkviolet;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    list-style-type: decimal;
+}
+
+div.left{
+    float: left;
+    width: 80%;
+}
+div.right{
+    float: right;
+    width: 20%;
+}
+li{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Verdana";
+    letter-spacing: 3px;
+}
+.button{
+    color: black;
+    font-size: 11px;
+    background-color: white;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #fff5b5;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}

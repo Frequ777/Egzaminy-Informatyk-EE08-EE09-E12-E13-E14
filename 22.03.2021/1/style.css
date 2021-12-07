@@ -1,0 +1,17 @@
+div.lewy{width: 30%;
+float: left;
+background-color: green;
+opacity: 0.7;
+height: 300px;}
+div.prawy{width: 70%;
+float: right;
+background-color: lightcoral;
+height: 400px;}
+a.black{color: white;
+    background-color: darkgreen;
+    width: 50px;
+    height: 25px;
+}
+li.clear{list-style-image: none;
+display: inline;
+white-space: nowrap;}

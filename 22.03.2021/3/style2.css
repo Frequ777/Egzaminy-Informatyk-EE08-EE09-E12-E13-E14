@@ -1,0 +1,30 @@
+div.lewy
+{width: 40%;
+background-color: coral;
+font-family: "Times";
+font-size: 15px;
+height: 500px;
+float: left;}
+
+div.prawy
+{width: 60%;
+background-color: beige;
+font-family: "arial";
+font-size: 19px;
+height: 500px;
+float: left;}
+
+a:link
+{color: green;}
+
+a:visited
+{color: red;
+font-family: "Courier New";
+font-size: 12px;
+word-spacing: 4px;}
+
+p.akapit
+{font-size: 23px;
+background-color: aquamarine;
+color: white;
+height: 30px; width: 150; text-align: center;}
