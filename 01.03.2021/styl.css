@@ -1,0 +1,25 @@
+h1.pierwszy
+{font-size: 15px;
+color: green;
+word-spacing: 5px;
+text-align: justify;
+line-height: 0.5}
+h1.drugi
+{color: red;
+font-size: 12px;
+font-style: italic;
+border-top: 1px;
+border-top-color: blue;
+border-top-style: dotted;}
+img.pierwszy
+{border-style: dotted;
+border-color: magenta;}
+p.pierwszy{
+border 1px;
+border-style: solid;
+border-top-color: green;
+border-bottom-color: red;
+border-left-color: yellow;
+border-right-color: blue;
+color: fuchsia;
+}

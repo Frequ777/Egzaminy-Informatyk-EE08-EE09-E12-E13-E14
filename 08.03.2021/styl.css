@@ -1,0 +1,14 @@
+h3#nowy {color: green;
+border-top-color: red;
+border-top-style: dotted;
+border-left-color: darkred;
+border-left-style: dashed;
+border-right-color: darkred;
+border-right-style: dashed;
+font-size: 14px;
+font-style: italic;
+text-decoration: underline;
+word-spacing: 6px;}
+
+p.zielony{color: green;
+background-color: gray;}
